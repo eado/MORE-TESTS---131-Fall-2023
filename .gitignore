@@ -1,7 +1,7 @@
-*
+*.py
 !.gitignore
-!v2
-!ply
+!v2/**/*
+!ply/**/*
 !brewlex.py
 !brewparse.py
 !element.py
@@ -12,3 +12,7 @@
 !parsetab.py
 !README.md
 !tester.py
+
+
+__pycache__
+results.json
