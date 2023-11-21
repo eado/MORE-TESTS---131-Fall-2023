@@ -1,0 +1,24 @@
+func main() {
+    a = lambda() {print("original");};
+
+    x = lambda(ref f) {
+        a();
+        f();
+        f = lambda() {print("modified");};
+        a();
+        f();
+    };
+
+    x(a);
+    a();
+}
+
+/*
+*OUT*
+original
+original
+original
+modified
+modified
+*OUT*
+*/

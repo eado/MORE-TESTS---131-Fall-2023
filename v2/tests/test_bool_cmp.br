@@ -1,8 +1,9 @@
 func main() {
   print(true == true);
-  print(false == true);
-  print(false != true);
-  print(false != false);
+  print(true == false);
+
+  print(true != false);
+  print(true != true);
 }
 
 /*

@@ -1,14 +1,13 @@
 func main() {
-  a = foo();
-  print(a);
+  foo();
 }
 
 func foo() {
- return 5;
+  print("a");
 }
 
 /*
 *OUT*
-5
+a
 *OUT*
 */
