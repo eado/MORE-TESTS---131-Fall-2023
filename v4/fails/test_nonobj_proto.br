@@ -1,14 +1,11 @@
 func main() {
-    p = @;
-    
+    p = 10;
     c = @;
     c.proto = p;
-
-    print(p == c.proto);
 }
 
 /*
 *OUT*
-true
+ErrorType.TYPE_ERROR
 *OUT*
 */
