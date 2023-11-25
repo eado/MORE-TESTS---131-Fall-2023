@@ -1,10 +1,7 @@
-
-func foo() {
-    print("hi");
-}
-
 func main() {
-  print(!foo);
+  f = 5;
+  g = @;
+  g.proto = f;
 }
 
 /*

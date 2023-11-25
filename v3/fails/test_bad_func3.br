@@ -1,12 +1,7 @@
-
-func foo() {
-    print("hi");
-}
-
 func main() {
-  print(!foo);
+  a = nil;
+  a(10);
 }
-
 /*
 *OUT*
 ErrorType.TYPE_ERROR

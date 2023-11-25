@@ -1,10 +1,7 @@
 
-func foo() {
-    print("hi");
-}
-
 func main() {
-  print(!foo);
+  x = lambda() { print("hi"); };
+  z = x + 10;
 }
 
 /*

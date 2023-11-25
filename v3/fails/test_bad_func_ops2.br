@@ -1,5 +1,9 @@
+func foo(a) {
+ print(a);
+}
+
 func main() {
-	print(main + 1);
+  print(foo + 10);
 }
 
 /*
